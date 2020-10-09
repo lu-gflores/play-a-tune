@@ -28,6 +28,28 @@ h1 {
     text-align: center;
     color: white;
 }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+    background-color: lightslategray;
+}
+li {
+    float: right;
+}
+li a {
+    display: block;
+    padding: 16px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+}
+li a:hover {
+    color: mintcream;
+}
 .character {
     background-image: url('../img/deku.jpg');
     background-repeat: no-repeat;
