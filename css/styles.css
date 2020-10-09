@@ -15,6 +15,10 @@ body, html{
     padding: 0;
     font-family: sans-serif;
 }
+kbd {
+    display: block;
+    font-size: 5rem;
+}
 .character {
     background-image: url('../img/deku.jpg');
     background-repeat: no-repeat;
@@ -27,10 +31,12 @@ body, html{
     flex: 1;
     min-height: 100vh;
     align-items: center;
-    justify-content: center;
+    justify-content: center ;
 }
 .key {
     border: .4rem solid white;
+    opacity: .8;
+    border-radius: 1rem;
     margin: 1rem;
     font-size: 1.5rem;
     padding: 1rem 1.5rem;
