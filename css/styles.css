@@ -45,3 +45,13 @@ kbd {
     background-color: seagreen;
     text-shadow: 0 0 .5rem black;
 }
+.playing {
+    transform: scale(.85);
+    border-color: chartreuse;
+}
+.sound {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    color: cadetblue
+}
