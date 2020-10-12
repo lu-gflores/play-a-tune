@@ -79,7 +79,7 @@ li a {
 li a:hover {
     color: mintcream;
 } */
-.character {
+.character-deku{
     background-image: url('../img/deku.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -87,6 +87,16 @@ li a:hover {
     background-size: 550px 450px ;
     
 }
+
+.character-zora{
+    background-image: url('../img/zora.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 550px 450px ;
+    
+}
+
 .keys {
     display: flex;
     flex: 1;
@@ -109,7 +119,7 @@ li a:hover {
     text-shadow: 0 0 .5rem black;
 }
 .playing {
-    transform: scale(.85);
+    transform: scale(1.1);
     border-color: chartreuse;
 }
 .sound {
