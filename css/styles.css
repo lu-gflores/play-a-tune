@@ -96,6 +96,14 @@ li a:hover {
     background-size: 550px 450px ;
     
 }
+.character-goron{
+    background-image: url('../img/goron.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 550px 450px ;
+    
+}
 
 .keys {
     display: flex;
